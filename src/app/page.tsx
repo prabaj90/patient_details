@@ -22,7 +22,7 @@ export default function Home() {
       <slideContext.Provider value={{ slideValue, updateValue }}>
         <div>
           <h2>Patient Detials</h2>
-          <span>Filter by Age</span>
+          <h4>Filter by Age</h4>
           <RangeSlider />
           <DataGridComponent />
         </div>

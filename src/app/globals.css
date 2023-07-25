@@ -86,8 +86,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: #E2E5DE;
+  color: #000;
+  background: #ddd;
 }
 
 a {
@@ -99,4 +99,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.MuiDataGrid-cellSkeleton,.MuiDataGrid-cell{
+  background-color: #fff;
 }

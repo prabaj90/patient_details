@@ -43,7 +43,7 @@ export const columnsHeader = [
           console.log("Detials Clicked");
         };
   
-        return <Button onClick={onClick}>Details</Button>;
+        return <Button variant="contained" onClick={onClick}>Details</Button>;
       }
     }
       
